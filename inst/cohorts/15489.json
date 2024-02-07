@@ -1,0 +1,831 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533052,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "F00",
+            "VOCABULARY_ID": "ICD10",
+            "CONCEPT_NAME": "Dementia in Alzheimer disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "ICD10 Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45557146,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "F00.2",
+            "VOCABULARY_ID": "ICD10",
+            "CONCEPT_NAME": "Dementia in Alzheimer disease, atypical or mixed type",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "ICD10 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45561994,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "F00.9",
+            "VOCABULARY_ID": "ICD10",
+            "CONCEPT_NAME": "Dementia in Alzheimer disease, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "ICD10 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "ICD10 F00 Dementia in Alzheimer's disease NOT mapped to SNOMED (too broad)",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4218017,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "416780008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Primary degenerative dementia of the Alzheimer type, presenile onset",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4220313,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "416975007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Primary degenerative dementia of the Alzheimer type, senile onset",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "ICD10 F00 Dementia in Alzheimer's disease mapped to SNOMED",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 9201,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "IP",
+          "VOCABULARY_ID": "Visit",
+          "CONCEPT_NAME": "Inpatient Visit",
+          "DOMAIN_ID": "Visit",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Visit",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Inpatient Visit",
+      "id": 2
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 9202,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "OP",
+          "VOCABULARY_ID": "Visit",
+          "CONCEPT_NAME": "Outpatient Visit",
+          "DOMAIN_ID": "Visit",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Visit",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Outpatient Visit",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9202,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Outpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or Outpatient Visit",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 1460
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [],
+        "Type": "ANY",
+        "DemographicCriteriaList": [{"Age": {
+          "Op": "gte",
+          "Value": 50
+        }}],
+        "Groups": []
+      },
+      "name": "Age >= 50"
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {"CodesetId": 1}},
+            "Occurrence": {
+              "Type": 0,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 365,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {"ConditionSourceConcept": 0}},
+            "Occurrence": {
+              "Type": 0,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          }
+        ],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No dx within a year prior"
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": true,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "Criteria": {"VisitOccurrence": {
+              "CodesetId": 2,
+              "VisitTypeExclude": false
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": true,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "Criteria": {"VisitOccurrence": {
+              "CodesetId": 3,
+              "VisitTypeExclude": false,
+              "ProviderSpecialty": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003663,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "111NN0400X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Neurology Chiropractor",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38004458,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "13",
+                  "VOCABULARY_ID": "Medicare Specialty",
+                  "CONCEPT_NAME": "Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003893,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "207T00000X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Neurological Surgery",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 43125860,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084B0040X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Behavioral Neurology and Neuropsychiatry",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003981,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084D0003X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Psychiatry & Neurology, Diagnostic Neuroimaging",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003983,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084H0002X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Hospice and Palliative Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003985,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084N0400X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Psychiatry & Neurology, Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003986,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084N0402X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Psychiatry & Neurology, Neurology with Special Qualifications in Child Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003987,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084N0600X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Psychiatry & Neurology, Clinical Neurophysiology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 903251,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084P0301X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Brain Injury Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003994,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084P2900X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Pain Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003995,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084S0010X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Sports Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003996,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084S0012X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Sleep Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38003997,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2084V0102X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Allopathic & Osteopathic Physicians, Psychiatry & Neurology, Vascular Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3193668,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "224550000",
+                  "VOCABULARY_ID": "Nebraska Lexicon",
+                  "CONCEPT_NAME": "Neurology nurse",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4075506,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "224550000",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Neurology nurse",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 38004058,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "2251N0400X",
+                  "VOCABULARY_ID": "NUCC",
+                  "CONCEPT_NAME": "Physical Neurology Therapist",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3194692,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "309334002",
+                  "VOCABULARY_ID": "Nebraska Lexicon",
+                  "CONCEPT_NAME": "Paediatric neurologist",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4205969,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "309334002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Pediatric neurologist",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 44777725,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "400",
+                  "VOCABULARY_ID": "HES Specialty",
+                  "CONCEPT_NAME": "Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 44777781,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "421",
+                  "VOCABULARY_ID": "HES Specialty",
+                  "CONCEPT_NAME": "Paediatric neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3197373,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "56397003",
+                  "VOCABULARY_ID": "Nebraska Lexicon",
+                  "CONCEPT_NAME": "Neurologist",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4207073,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "56397003",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Neurologist",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 800946,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "G4015",
+                  "VOCABULARY_ID": "HCPCS",
+                  "CONCEPT_NAME": "Neurology mips specialty set",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 45756788,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4821955",
+                  "VOCABULARY_ID": "ABMS",
+                  "CONCEPT_NAME": "Neurology with Special Qualification in Child Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 45756834,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822007",
+                  "VOCABULARY_ID": "ABMS",
+                  "CONCEPT_NAME": "Vascular Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 33005,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP5117448",
+                  "VOCABULARY_ID": "Provider",
+                  "CONCEPT_NAME": "Psychiatry or Neurology",
+                  "DOMAIN_ID": "Provider",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ]
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": true,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "Criteria": {"VisitOccurrence": {
+              "CorrelatedCriteria": {
+                "CriteriaList": [
+                  {
+                    "RestrictVisit": false,
+                    "StartWindow": {
+                      "UseEventEnd": false,
+                      "Start": {
+                        "Days": 1,
+                        "Coeff": 1
+                      },
+                      "End": {
+                        "Days": 183,
+                        "Coeff": 1
+                      },
+                      "UseIndexEnd": false
+                    },
+                    "IgnoreObservationPeriod": false,
+                    "Criteria": {"ConditionOccurrence": {
+                      "CorrelatedCriteria": {
+                        "CriteriaList": [{
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {"Coeff": -1},
+                            "End": {
+                              "Days": 0,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": false,
+                          "EndWindow": {
+                            "UseEventEnd": true,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {"Coeff": 1},
+                            "UseIndexEnd": false
+                          },
+                          "Criteria": {"VisitOccurrence": {
+                            "CodesetId": 4,
+                            "VisitTypeExclude": false
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "IsDistinct": false,
+                            "Count": 1
+                          }
+                        }],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      "CodesetId": 1
+                    }},
+                    "Occurrence": {
+                      "Type": 2,
+                      "IsDistinct": false,
+                      "Count": 1
+                    }
+                  },
+                  {
+                    "RestrictVisit": false,
+                    "StartWindow": {
+                      "UseEventEnd": false,
+                      "Start": {
+                        "Days": 1,
+                        "Coeff": 1
+                      },
+                      "End": {
+                        "Days": 183,
+                        "Coeff": 1
+                      },
+                      "UseIndexEnd": false
+                    },
+                    "IgnoreObservationPeriod": false,
+                    "Criteria": {"ConditionOccurrence": {
+                      "CorrelatedCriteria": {
+                        "CriteriaList": [{
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {"Coeff": -1},
+                            "End": {
+                              "Days": 0,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": false,
+                          "EndWindow": {
+                            "UseEventEnd": true,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {"Coeff": 1},
+                            "UseIndexEnd": false
+                          },
+                          "Criteria": {"VisitOccurrence": {
+                            "CodesetId": 4,
+                            "VisitTypeExclude": false
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "IsDistinct": false,
+                            "Count": 1
+                          }
+                        }],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      "ConditionSourceConcept": 0
+                    }},
+                    "Occurrence": {
+                      "Type": 2,
+                      "IsDistinct": false,
+                      "Count": 1
+                    }
+                  }
+                ],
+                "Type": "ANY",
+                "DemographicCriteriaList": [],
+                "Groups": []
+              },
+              "CodesetId": 3,
+              "VisitTypeExclude": false
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }
+        ],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "Additional criteria for index event (IP dx OR OP dx by neurologist OR OP + IP) "
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ConditionOccurrence": {"CodesetId": 1}},
+      {"ConditionOccurrence": {"ConditionSourceConcept": 0}}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}
